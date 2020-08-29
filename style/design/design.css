@@ -1,0 +1,17 @@
+
+@import url(./design__cards.css);
+@import url(./card/card.css);
+
+.design {
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 320px) {
+    .design {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+    }
+}

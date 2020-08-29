@@ -1,0 +1,36 @@
+@import url(./accessories__cards.css);
+
+.accessories {
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 320px) {
+    .accessories {
+        padding-top: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #box5 {
+        grid-column-start: 1;
+        grid-column: 1/3;
+        grid-row-start: 1;
+        
+    }
+    
+    #box6 {
+        grid-column-start: 1;
+        grid-column: 1/3;
+        grid-row-start: 2;
+    }
+    
+    #box7 {
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+    #box8 {
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+}

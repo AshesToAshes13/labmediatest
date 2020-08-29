@@ -1,0 +1,10 @@
+.underline-gray {
+    position: relative;
+    height: 1px;
+    max-width: 1000px;
+    min-width: 100px;
+    background-color: #000000;
+    margin-top: -3px;
+    z-index: 1;
+    opacity: 0.1;
+}

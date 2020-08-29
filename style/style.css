@@ -1,0 +1,35 @@
+@import url(./header/header.css);
+@import url(./underline/underline-header.css);
+@import url(./main/main.css);
+@import url(./design/design.css);
+@import url(./common/underline.css);
+@import url(./scaner/scaner.css);
+@import url(./common/section__title.css);
+@import url(./accessories/accessories.css);
+@import url(./services/services.css);
+@import url(./samsung/samsung.css);
+
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: PTRootUi;
+}
+
+@font-face {
+    font-family: 'PTRootUI';
+    src: url(../fonts/Ptrootui.woff);
+    font-style: normal;
+}
+
+@media screen and (max-width: 720px) {
+    .page {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        width: 320px;
+    }
+}

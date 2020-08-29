@@ -1,0 +1,12 @@
+.underline {
+    height: 1px;
+    background-color: #000000;
+    margin-top: 40px;
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 320px) {
+    .underline {
+        margin-top: 0px;
+    }
+}

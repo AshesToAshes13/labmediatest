@@ -1,0 +1,20 @@
+.scaner__image {
+    max-width: 465px;
+    max-height: 248px;
+}
+
+@media screen and (max-width: 720px) {
+    .scaner__image {
+        max-width: 325px;
+        max-height: 173px;
+    }   
+}
+
+@media screen and (max-width: 320px) {
+    .scaner__image {
+        max-width: 320px;
+        max-height: 170px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}

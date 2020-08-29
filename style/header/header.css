@@ -1,0 +1,16 @@
+@import url(./header__image.css);
+@import url(./header__text.css);
+
+.header {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }   
+}

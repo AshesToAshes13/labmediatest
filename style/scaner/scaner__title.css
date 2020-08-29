@@ -1,0 +1,15 @@
+.scaner__title:before {
+    content: "Сканер отпечатка в экране";
+}
+
+@media screen and (max-width: 720px) {
+    .scaner__title:before {
+        content: "Съемка видео";
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .scaner__title:before {
+        content: "Съемка видео";
+    }
+}

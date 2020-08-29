@@ -1,0 +1,12 @@
+@import url(./samsung__text.css);
+
+.samsung {
+    display: none;
+}  
+
+@media screen and (max-width: 320px) {
+    .samsung {
+        display: block;
+        background-color: #efefef;
+    }
+}

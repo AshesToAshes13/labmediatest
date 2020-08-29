@@ -1,0 +1,19 @@
+@import url(./card__image-scaner.css);
+@import url(./card__text-scaner.css);
+
+.scaner__card {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.scaner__card:last-of-type {
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 320px) {
+    .scaner__card {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+}

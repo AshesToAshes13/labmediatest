@@ -1,0 +1,14 @@
+@import url(./card.css/card.css);
+
+.scaner__cards {
+    display: flex;
+    flex-direction: column;
+    padding-left: 42px;
+}
+
+@media screen and (max-width: 320px) {
+    .scaner__cards {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+}

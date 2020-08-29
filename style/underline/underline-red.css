@@ -1,0 +1,7 @@
+.underline-red {
+    position: relative;
+    height: 3px;
+    width: 207px;
+    background-color: #D70E2A;
+    z-index: 2;
+}

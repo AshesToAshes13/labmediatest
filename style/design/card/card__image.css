@@ -1,0 +1,18 @@
+.card__image {
+    margin: auto auto;
+}
+
+.card__image-dark {
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 720px) {
+    .card__image-dark {
+        height: 183px;
+    }   
+}

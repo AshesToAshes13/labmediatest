@@ -1,0 +1,17 @@
+@import url(./services__cards.css);
+@import url(./services__text.css);
+@import url(./services__image.css);
+
+.services {
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 320px) {
+    .services {
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,17 @@
+@import url(./main__title.css);
+
+
+.main {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 320px) {
+    .main {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+
+    }
+}

@@ -1,0 +1,8 @@
+@import url(./underline-red.css);
+@import url(./underline-gray.css);
+
+@media screen and (max-width: 320px) {
+    .underline-header {
+        display: none;
+    }
+}

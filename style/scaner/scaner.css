@@ -1,0 +1,18 @@
+@import url(./scaner__title.css);
+@import url(./scaner__main.css);
+@import url(./scaner__image.css);
+@import url(./scaner__cards.css);
+
+.scaner {
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 320px) {
+    .scaner {
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

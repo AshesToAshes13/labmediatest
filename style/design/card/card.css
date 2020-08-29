@@ -1,0 +1,14 @@
+@import url(./card__image.css);
+@import url(./card__text.css);
+@import url(./card__underline.css);
+
+.design__card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.design__card-dark {
+    background-color: #171717;
+    color: #ffffff;
+}

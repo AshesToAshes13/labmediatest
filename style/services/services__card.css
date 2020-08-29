@@ -1,0 +1,18 @@
+    
+.services__card {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+    .services__card {
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .services__card:nth-child(even) {
+        flex-direction: row-reverse;
+        
+    }
+    
+}
